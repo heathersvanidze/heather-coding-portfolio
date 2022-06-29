@@ -24,6 +24,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/afe3fbb27a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -33,10 +35,14 @@
   <div class="content wrapper">
   <nav>
     <ul>
-      <li>Projects</li>
-      <li>Skills</li>
-      <li>About Me</li>
-      <li>Contact</li>
+      <li><a href="#projects" >Projects</a>
+      </li>
+      <li><a href="#skills">Skills</a>
+      </li>
+      <li><a href="#about">About Me</a>
+      </li>
+      <li><a href="#contact">Contact</a>
+      </li>
     </ul>
 
 
@@ -57,18 +63,168 @@
           <div class="portfolio-piece">
             <figure>
               <a href="https://heathersvanidze.github.io/unplugged-retreat/" target="_blank">
-                <img src="" alt="Unplugged Retreat Project">
+                <img src="img/unplugged.png" alt="Unplugged Retreat Project">
               </a>
             </figure>
             <h4>Unplugged Retreat</h4>
+            <p class="project-description">This multi-page, responsive site for a tech retreat center uses FlexBox and mobile-first design. </p>
+            <p>
+              <span>Skills:</span>
+              HTML5, CSS3, FlexBox, responsive coding
+            </p>
+            <p>
+              <span>Tools:</span>
+              PhotoShop, Chrome Dev Tools, Visual Studio Code
+            </p>
           </div>
+          <div class="portfolio-piece">
+            <figure>
+              <a href="https://codesandbox.io/s/l14-final-sticky-notes-uqkejd?file=/src/App.js" target="_blank">
+                <img src="img/sticky-notes.png" alt="Sticky Notes UI">
+              </a>
+            </figure>
+            <h4>Sticky Notes UI</h4>
+            <p class="project-description">Greenfield project to create a classic sticky notes app with add, delete, edit, and search functionality.</p>
+            <p>
+              <span>Skills:</span>
+              ES6, JSX, Managing data flow, Manipulating the DOM
 
-
+            </p>
+            <p>
+              <span>Tools:</span>
+              Code Sandbox
+            </p>
+          </div>
+          <div class="portfolio-piece">
+            <figure>
+              <a href="https://github.com/heathersvanidze/rogue-pickings-responsive" target="_blank">
+                <img src="" alt="Rogue Pickings">
+              </a>
+            </figure>
+            <h4>Rogue Pickings</h4>
+            <p class="project-description">A clean, simple home page for a pop-up food truck. I converted this originally static page to responsive using FlexBox.</p>
+            <p>
+              <span>Skills:</span>
+              CSS3, HTML5, FlexBox, Media queries, Responsive typography
+            </p>
+            <p>
+              <span>Tools:</span>
+              GitHub, Visual Studio Code
+            </p> 
+          </div>
+          <div class="portfolio-piece">
+            <figure>
+              <a href="https://heathersvanidze.github.io/github-repo-gallery/" target="_blank">
+                <img src="" alt="GitHub Repo Gallery">
+              </a>
+            </figure>
+            <h4>GitHub Repo Gallery</h4>
+            <p class="project-description">A gallery that pulls data from GitHub’s API to showcase repos. Users can click on a repo to see more info and a link to the repo.</p>
+            <p>
+              <span>Skills:</span>
+              APIs, Vanilla JavaScript, manipulating the DOM, search functionality
+            </p>
+            <p>
+              <span>Tools:</span>
+              GitHub
+            </p> 
+          </div>
+          <div class="portfolio-piece">
+            <figure>
+              <a href="https://heathersvanidze.github.io/guess-the-word/" target="_blank">
+                <img src="" alt="Guess the Word Game">
+              </a>
+            </figure>
+            <h4>Guess the Word Game</h4>
+            <p class="project-description">Players guess the word by entering one letter at a time. If the player guesses the word correctly before they use up their allotted guesses, they win!</p>
+            <p>
+              <span>Skills:</span>
+              Vanilla JavaScript, manipulating the DOM
+            </p>
+            <p>
+              <span>Tools:</span>
+              GitHub, JSON
+            </p> 
+          </div>
         </div>
       </div>
     </section>
+    <section id="skills">
+      <div class="content-wrapper">
+        <h3 class="skills-header">Skills</h3>
+        <h4>Developer SKills</h4>
+          <div class="language-wrapper">
+            <p class="skill">HTML and CSS</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">React</p>
+            <p class="skill">Responsive web development</p>
+            <p class="skill">Git and GitHub</p>
+          </div>
+        <h4>Tech Stack</h4>
+          <div class="tool-wrapper">
+            <p class="tool">Chrome Dev Tools</p>
+            <p class="tool">PhotoShop</p>
+            <p class="tool">GitHub Pages</p>
+            <p class="tool">FTP and Web Hosting</p>
+          </div>
+      </div>
+    </section>
   </article>
+  <section id="about">
+    <div class="content-wrapper">
+      <div class="about-content-wrapper">
+        <figure>
+          <img src="" alt id="profile-image">
+        </figure>
+        <div class="about-info">
+          <h3>Hi! I'm Heather Stout!</h3>
+          <h4> I’m a front-end developer excited to work with innovative and inclusive companies.</h4>
+          <p class="about-text">
+            I started learning HTML as a grad student in international development, and I was hooked. 
+            I love the challenging combination of creativity and problem-solving that development provides. 
+            When I’m not coding, you can find me rereading Jane Austen or exploring the vast nature of Southern California.
+          </p>
+          <p>
+            <span>Can't wait to work with you!</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
+<footer id="contact">
+  <div class="content-wrapper">
+    <h3>Let's Connect!</h3>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h5 class="contact-header">Contact me</h5>
+        <p>509-701-4997</p>
+        <p>heatherstout@gmail.com</p>
+      </div>
+      <div class="contact-social">
+        <h5 class="contact-header">Social</h5>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/heathersvanidze/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/heathersvanidze" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+      </div>
+      <div class="contact-info">
+        <h5 class="contact-header">Meet up</h5>
+        <p>Claremont, CA</p>
+        <p>Let's get coffee!</p>
+      </div>
+    </div>
+    <p>
+      Copyright
+      <script>document.write(new Date().getFullYear())</script>
+      | Heather Stout
+    </p>
+  </div>
+</footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
