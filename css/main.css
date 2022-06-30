@@ -87,6 +87,104 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background: #453E4F;
+  color: #FFE8D6;
+  font-family: 'Alike', 'serif';
+  max-width: 500px;
+  margin:auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h3, h4 {
+  text-align:center;
+}
+
+p {
+  font-family: 'Open Sans', 'sans-serif';
+  text-align:left;
+}
+
+img {
+  height: 200px;
+  max-width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* HEADER STYLES*/
+
+header {
+  padding-top: 30px;
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  flex-flow:row wrap;
+  margin:30px;
+}
+
+.home-title {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #FFE8D6;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: bold;
+}
+
+#contact-link {
+  background-color: #F19494;
+  color: #453E4F;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+
+/*PROJECTS STYLES*/
+
+#projects {
+  width:100%;
+  background: #FFE8D6;
+  color:#453E4F;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+  padding:30px;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
