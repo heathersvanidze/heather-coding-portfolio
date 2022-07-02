@@ -91,8 +91,8 @@ body {
   background: #453E4F;
   color: #FFE8D6;
   font-family: 'Alike', 'serif';
-  max-width: 500px;
   margin:auto;
+  max-width:100%;
 }
 
 h1 {
@@ -137,6 +137,10 @@ a:active {
   text-decoration: none;
 }
 
+/*MOBILE STYLES*/
+
+/*GENERAL STYLES*/
+
 /* HEADER STYLES*/
 
 header {
@@ -172,6 +176,7 @@ nav ul li a {
   border-radius: 30px;
   padding: 10px 10px;
 }
+
 
 /*PROJECTS STYLES*/
 
@@ -262,6 +267,18 @@ nav ul li a {
 .about-info span {
   font-weight:bold;
   padding:40px;
+  
+}
+
+.about-info p {
+  margin:0;
+  padding-bottom:40px;
+}
+
+#about {
+  margin:0;
+  display:flex;
+
 }
 
 /*FOOTER STYLES*/
@@ -270,16 +287,22 @@ footer {
   background: #FFE8D6;
   color:#453E4F;
   text-align:center;
+  margin:0;
 }
 
 footer p {
   text-align:center;
+  margin:0;
+  padding-bottom:40px;
 }
 
 .contact-social ul {
   list-style:none;
 }
 
+#contact h2 {
+  margin:0;
+}
 
 
 /* ==========================================================================
