@@ -288,6 +288,10 @@ footer {
   color:#453E4F;
   text-align:center;
   margin:0;
+  padding-top: 60px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 
 footer p {
@@ -298,11 +302,16 @@ footer p {
 
 .contact-social ul {
   list-style:none;
+  text-align: center;
+  font-size:3em;
+  padding:0;
 }
+
 
 #contact h2 {
   margin:0;
 }
+
 
 
 /* ==========================================================================
@@ -402,6 +411,44 @@ footer p {
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
+}
+
+
+/*TABLET STYLES*/
+
+
+@media only screen and (min-width: 768px) {
+  
+  header {
+    max-width:640px;
+  }
+
+  header nav ul {
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    padding:80 0 80 0;
+    font-size:1.25em;
+  }
+
+  .home-title h1 {
+    padding-bottom:40px;
+  }
+
+  #projects {
+    display:flex;
+  }
+
+  .portfolio-piece {
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+
 }
 
 /* ==========================================================================
