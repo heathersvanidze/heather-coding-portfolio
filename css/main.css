@@ -111,9 +111,10 @@ h3, h4 {
   font-weight:400;
 }
 
-p {
+#projects p, #about p {
   font-family: 'Open Sans', 'sans-serif';
   text-align:left;
+  width:100%;
 }
 
 img {
@@ -139,6 +140,7 @@ a:active {
 
 span {
   font-weight: bold;
+  text-align: left;
 }
 
 /*MOBILE STYLES*/
@@ -255,6 +257,7 @@ nav ul li a {
   color:#453E4F;
   padding:15px 0;
   margin:20px 0;
+  font-family: 'Open sans', 'sans-serif';
 }
 
 .tool-wrapper p {
@@ -263,6 +266,7 @@ nav ul li a {
   color:#453E4F;
   padding:15px 0;
   margin:20px 0;
+  font-family: 'Open sans', 'sans-serif';
 }
 
 /*ABOUT STYLES*/
@@ -549,8 +553,74 @@ footer p {
   
   header nav {
     justify-content: flex-end;
+  }
+
+  header nav ul {
     width:50%;
   }
+
+  .portfolio-piece {
+    width:30%;
+    align-items: center;
+    padding:20px;
+  }
+
+  .project-link {
+    margin-top:30px;
+  }
+
+  #skills .content-wrapper {
+    max-width:960px;
+  }
+
+  .skill {
+    width:30%;
+  }
+
+  .tool {
+    width:30%;
+    margin-top:10px;
+  }
+
+  .language-wrapper {
+    justify-content: space-evenly;
+  }
+
+  .about-content-wrapper {
+    display:flex;
+    justify-content: space-between;
+    width:960px;
+  }
+
+  #about {
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+
+  .about-info {
+    width:50%;
+  }
+
+  #about figure {
+    width:35%;
+    margin-top:0;
+  }
+
+  footer h2 {
+    font-size: 2.5em;
+  }
+
+  footer h4 {
+    font-size:2em;
+  }
+
+  #contact content-wrapper {
+    max-width: 960px;
+  }
+
+  
+
+  
 
 
 
