@@ -114,7 +114,6 @@ h3, h4 {
 #projects p, #about p {
   font-family: 'Open Sans', 'sans-serif';
   text-align:left;
-  width:100%;
 }
 
 img {
@@ -206,7 +205,7 @@ nav ul li a {
   display:flex;
   flex-direction:column;
   justify-content: center;
-  margin-bottom:40px;
+  margin-bottom:20px;
 }
 
 .portfolio-piece h4 {
@@ -290,6 +289,12 @@ nav ul li a {
   
 }
 
+.about-info h4 {
+  margin-right:20px;
+  margin-left:20px;
+  margin-bottom:0;
+}
+
 .about-info p {
   margin:0;
   padding-bottom:40px;
@@ -315,6 +320,9 @@ footer {
 footer p {
   text-align:center;
   margin:0;
+}
+
+.contact-info {
   padding-bottom:40px;
 }
 
@@ -485,6 +493,10 @@ footer p {
     padding-bottom:20px;
   }
 
+  .language-wrapper p {
+    padding:15px 0;
+  }
+
   .tool-wrapper {
     display:flex;
     justify-content: space-evenly;
@@ -552,8 +564,13 @@ footer p {
 
 @media only screen and (min-width: 1200px) {
 
+  header h1 {
+    font-size: 4em;
+  }
+  
   header {
     max-width:960px;
+    margin-bottom:60px;
   }
   
   header nav {
@@ -564,34 +581,65 @@ footer p {
     width:50%;
   }
 
+  #projects {
+    padding-top:80px;
+  }
+
   .portfolio-piece {
     width:30%;
     align-items: center;
     padding:20px;
   }
 
+  .portfolio-piece h4 {
+    font-size: 1.5em;
+  }
+
+  .portfolio-piece p {
+    font-size:1.25em;
+  }
+
   .project-link {
     margin-top:30px;
+  }
+
+  .skills-header {
+    font-size: 3.5em;
+  }
+
+  #skills {
+    padding:60px 0 80px 0;
+  }
+
+  #skills h4 {
+    font-size:2em;
   }
 
 
   .skill {
     width:30%;
+    font-size:1.25em;
   }
 
   .tool {
     width:30%;
     margin-top:10px;
+    font-size:1.25em;
   }
 
   .language-wrapper {
     justify-content: space-evenly;
+    max-width: 1100px;
+  }
+
+  .tool-wrapper {
+    justify-content:space-evenly;
   }
 
   .about-content-wrapper {
     display:flex;
     justify-content: space-between;
-    width:960px;
+    width:1100px;
   }
 
   #about {
@@ -599,13 +647,25 @@ footer p {
     padding-bottom:40px;
   }
 
+  #about h2 {
+    font-size:3.5em
+  }
+
+  #about h4 {
+    font-size:1.75em;
+  }
+
+  #about p {
+    font-size:1.25em;
+  }
+
   .about-info {
-    width:50%;
+    width:60%;
   }
 
   #about figure {
-    width:35%;
-    margin-top:0;
+    width:30%;
+    margin-top:80px;
   }
 
 
