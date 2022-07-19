@@ -326,6 +326,10 @@ footer p {
   padding-bottom:40px;
 }
 
+.contact-info a {
+  color:#453E4F;
+}
+
 .contact-social ul {
   list-style:none;
   text-align: center;
@@ -478,6 +482,7 @@ footer p {
 
   .portfolio-wrapper {
     justify-content: space-around;
+    align-items: flex-start;
   }
 
   .skills-header {
