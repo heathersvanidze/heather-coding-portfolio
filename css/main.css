@@ -184,6 +184,9 @@ nav ul li a {
   padding: 10px 10px;
 }
 
+#contact-link:hover {
+  background-color: #F8C6C6;
+}
 
 /*PROJECTS STYLES*/
 
