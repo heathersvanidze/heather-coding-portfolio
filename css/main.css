@@ -230,6 +230,12 @@ nav ul li a {
   padding: 10px 10px;
 }
 
+.project-link:hover {
+  background-color: #F19494;
+  color: #453E4F;
+  font-weight:bold;
+}
+
 /* SKILLS STYLES*/
 
 .skills-header {
